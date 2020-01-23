@@ -32,8 +32,8 @@ disqusShortname = ""
 
   # 404 error customization
   [params.error404]
-    heading = "Page couldn't be found"
-    text = "Please visit [this page](/)"
+    heading = "Nie znaleziono storny"
+    text = "Wróć do [this page](/)"
 
   # Navigation Section
   [params.navigation]
@@ -44,20 +44,16 @@ disqusShortname = ""
     #logo = "logo.jpg"
 
     [[params.navigation.links]]
-      name = "Początek"
-      url = "#"
+      name = "Treningi"
+      url = "treningi"
 
     [[params.navigation.links]]
-      name = "Blogs"
-      url = "blogs"
+      name = "O nas"
+      url = "about"
 
     [[params.navigation.links]]
-      name = "Generic Blog"
-      url = "blogs/ipsum"
-
-    [[params.navigation.links]]
-      name = "Elements"
-      url = "elements.html"
+      name = "Karate Kyokushin"
+      url = "karate.html"
 
     # Add custom links here by uncommenting code below. To remove links just delete
     # the [[params.navigation.links]] map associated with that link. Copy and paste
@@ -68,14 +64,8 @@ disqusShortname = ""
 
     # Button Style 1
     [[params.navigation.button1]]
-      name = "Get Started"
-      url = "blogs"
-
-    # Button Style 2
-    [[params.navigation.button2]]
-      name = "Log In"
-      url = "#"
-
+      name = "Dołącz do nas"
+      url = "join"
 
   # Banner section
   [params.banner]
@@ -116,7 +106,7 @@ disqusShortname = ""
       url = "blogs/ipsum"
 
     [[params.tiles.showcase]]
-      title = "Trenuj z dzieckiem"
+      title = "Trenuj razem z dzieckiem"
       subtitle = "W naszej sekcji rodzicie trenują wspólnie z dziećmi ..."
       image = "pic05.jpg"
       url = "blogs/ipsum"
@@ -194,7 +184,3 @@ disqusShortname = ""
       icon = "fa-facebook"
       url= "https://www.facebook.com"
       label = "Facebook"
-    [[params.footer.social]]
-        icon = "fa-facebook"
-        url= "https://www.facebook.com"
-        label = "Facebook"
