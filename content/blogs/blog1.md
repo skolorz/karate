@@ -1,14 +1,12 @@
 ---
-title: "Ipsum"
-description: ""
-slug: "ipsum"
-image: pic10.jpg
+title: "Środa 18:00"
+description: "W środę trenujemy w siedzibie Żorskiego Centrum Organizacji Pozarządowych, ul. Osińska 52 (Budynek Zespołu Szkół nr 3)"
+slug: "piatek"
+image: "../pic06.jpg"
 keywords: ""
-categories: 
+categories:
     - ""
     - ""
-date: 2017-10-31T21:28:43-05:00
+date: 2020-01-21T22:26:13-05:00
 draft: false
 ---
-
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.
