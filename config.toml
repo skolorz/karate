@@ -28,7 +28,7 @@ disqusShortname = ""
   favicon    = "favicon.ico"
 
   # Just a custom image variable, please define it in .md files for content.
-  image = ""
+  image = "logo.jpg"
 
   # 404 error customization
   [params.error404]
@@ -41,19 +41,11 @@ disqusShortname = ""
     subtitle = ""
     menu = ""
     # Optional logo as brand stored in img/
-    #logo = "logo.jpg"
+    logo = "logo.jpg"
 
     [[params.navigation.links]]
       name = "Treningi"
-      url = "treningi"
-
-    [[params.navigation.links]]
-      name = "O nas"
-      url = "about"
-
-    [[params.navigation.links]]
-      name = "Karate Kyokushin"
-      url = "karate.html"
+      url = "blogs"
 
     # Add custom links here by uncommenting code below. To remove links just delete
     # the [[params.navigation.links]] map associated with that link. Copy and paste
@@ -63,9 +55,7 @@ disqusShortname = ""
     #    url = "UrlOfLink"
 
     # Button Style 1
-    [[params.navigation.button1]]
-      name = "Dołącz do nas"
-      url = "join"
+
     [[params.navigation.button2]]
       name = "Nasz profil facebook"
       url = "https://www.facebook.com/karatezory/"
@@ -85,54 +75,16 @@ disqusShortname = ""
 
     [[params.tiles.showcase]]
       title = "Środa 18:00"
-      subtitle = "Treningi w środę odbywają się w ŻCOP, zobacz więcej ..."
+      subtitle = "Treningi w środę odbywają się w ŻCOP"
       image = "pic01.jpg"
       url = "blogs"
 
     [[params.tiles.showcase]]
       title = "Piątek 18:00"
-      subtitle = "W piątek trenujemy w Zespole Szkół nr 3, dowiedz więcej ..."
+      subtitle = "W piątek trenujemy w Zespole Szkół nr 3"
       image = "pic02.jpg"
       url = "blogs"
 
-    [[params.tiles.showcase]]
-      title = "Dołącz do nas"
-      subtitle = "Dowiedz się jak zacząć trenować ..."
-      image = "pic03.jpg"
-      url = "blogs/magna"
-      enable = false
-
-    [[params.tiles.showcase]]
-      title = "Dzieci i młodzież"
-      subtitle = "Przyjmujemy dzieci i młodzież ..."
-      image = "dzieci.jpg"
-      url = "blogs/ipsum"
-
-    [[params.tiles.showcase]]
-      title = "Dorośli"
-      subtitle = "Przygodę z Karate można zacząć w każdym wieku ..."
-      image = "pic04.jpg"
-      url = "blogs/ipsum"
-
-
-    [[params.tiles.showcase]]
-      title = "Trenuj razem z dzieckiem"
-      subtitle = "W naszej sekcji rodzicie trenują wspólnie z dziećmi ..."
-      image = "pic05.jpg"
-      url = "blogs/ipsum"
-
-    [[params.tiles.showcase]]
-      title = "O nas"
-      subtitle = "Zajęcia prowadzi sensei ..."
-      image = "pic06.jpg"
-      url = "blogs/ipsum"
-
-      [[params.tiles.showcase]]
-        title = "Karate Kyokushin"
-        subtitle = "Dowiedz się więcej o Karate Kyokushin ..."
-        image = "soon-santos-sab37qbGmHc-unsplash.jpg"
-        url = "blogs/ipsum"
-    # You can make more showcases by copy and pasting the code above
 
   [params.blog]
     # All blogs defined in their own files. You can find example blogs
@@ -144,13 +96,11 @@ disqusShortname = ""
   # Section Type Two
   [params.two]
     enable = true
-    title = "Massa libero"
-    subtitle = """Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.
-    Mauris aliquet magna magna sed nunc rhoncus pharetra.
-    Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-    Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
-    Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus."""
-    buttonText = "Get Started"
+    title = "O nas"
+    subtitle = """Zajęcia prowadzi Sensei Jerzy Ludziejewski 4DAN (4 stopień mistrzowski) IKO
+    który posiada także tytuł SHIBUCHO szkoły szermierki długim mieczem japońskim Musō Jikiden Eishin-ryū / Komei Juku.
+    Treningi Karate Kyokushin w naszym mieście prowadzi już od ponad 35lat!"""
+    buttonText = "Dołącz do nas"
     url = "blogs"
 
 
