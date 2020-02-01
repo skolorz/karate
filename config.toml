@@ -1,5 +1,5 @@
 # Site settings
-baseURL = "https://zorskie-centrum-karate.netlify.com/"
+baseURL = "https://karate-shogun-zory.netlify.com/"
 languageCode = "pl-pl"
 title = "Żorskie Centrum Karate Kyokushin Shogun Żory 1980"
 theme = "forty"
@@ -148,5 +148,5 @@ disqusShortname = ""
     # Uses font awesome icons
     [[params.footer.social]]
       icon = "fa-facebook"
-      url= "https://www.facebook.com"
+      url= "https://www.facebook.com/karatezory"
       label = "Facebook"
