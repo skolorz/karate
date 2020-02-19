@@ -76,7 +76,7 @@ disqusShortname = ""
     [[params.tiles.showcase]]
       title = "Środa 18:00"
       subtitle = "Treningi w środę odbywają się w ŻCOP"
-      image = "pic01.jpg"
+      image = "zcop.jpg"
       url = "blogs"
 
     [[params.tiles.showcase]]
@@ -85,6 +85,11 @@ disqusShortname = ""
       image = "pic02.jpg"
       url = "blogs"
 
+    [[params.tiles.showcase]]
+      title = "Dla rodziców"
+      subtitle = "Siedem powodów dla których warto zapisać dziecko na Karate"
+      image = "dzieci.jpg"
+      url = "siedem"
 
   [params.blog]
     # All blogs defined in their own files. You can find example blogs
@@ -97,9 +102,12 @@ disqusShortname = ""
   [params.two]
     enable = true
     title = "O nas"
-    subtitle = """Zajęcia prowadzi Sensei Jerzy Ludziejewski 4DAN (4 stopień mistrzowski) IKO
-    który posiada także tytuł SHIBUCHO szkoły szermierki długim mieczem japońskim Musō Jikiden Eishin-ryū / Komei Juku.
-    Treningi Karate Kyokushin w naszym mieście prowadzi już od ponad 35lat!"""
+    subtitle = """Zajęcia prowadzi Sensei Jerzy SHOGUN Ludziejewski,
+    posiadający 4 DAN (stopień mistrzowski) International Karate Organization,
+    a także tytuł SHIBUCHO szkoły szermierki długim mieczem japońskim Musō Jikiden Eishin-ryū / Komei Juku.
+    Treningi Karate Kyokushin w Żorach prowadzi już od ponad 35lat!
+    Prowadzi zajęcia wierząc, że wykształci przyszłe pokolenie mistrzów karate. Dba o rozwój emocjonalny,
+    uczy dyscypliny i przestrzegania najcenniejszych  wartości zawartych w przysiędze DOJO"""
     buttonText = "Dołącz do nas"
     url = "blogs"
 
@@ -150,3 +158,8 @@ disqusShortname = ""
       icon = "fa-facebook"
       url= "https://www.facebook.com/karatezory"
       label = "Facebook"
+    [[params.footer.social]]
+      icon = "fa-phone"
+      url= "tel:888334770"
+      label = "888 334 770"
+      text = "888 334 770"
